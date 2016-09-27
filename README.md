@@ -4,6 +4,11 @@ ActiveJDBC + Gradle3 Daemon = Frozen Model
 This project is a small demonstration of a "class is frozen" problem running ActiveJDBC instrumentation from a Gradle daemon.
 It also shows some proposed solutions to this. Check out the build.gradle file for more details.
 
+How to simulate this
+--------------------
+
+Just run the `gradle instrumentModel` for two times.
+
 Problem description
 -------------------
 
